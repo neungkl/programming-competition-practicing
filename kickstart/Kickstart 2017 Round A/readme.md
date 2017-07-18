@@ -12,10 +12,12 @@ This problem is can be reduced down into small pieces of abstraction.
 Try to imagine only a square with N * N dots. How many possible reactangle that can fit in that square. Count only the square which larger than (N - 1) * (N - 1) size (so that means rotated squares are count as well)
 
 For example if square size is 4 * 4, the amount of fitted squares is 3
+```
 5 * 5 = 4
 6 * 6 = 5
 ...
 N * N = N - 1
+```
 
 So, just count amount number of square in different size from 1 to min(R, C) and summarize it all.
 
