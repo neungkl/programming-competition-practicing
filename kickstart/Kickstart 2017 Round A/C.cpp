@@ -15,11 +15,23 @@ int r[SIZE];
 int maxx, maxy, maxz;
 int minx, miny, minz;
 
-int cover_axis(int x1_s, int x1_e, int x2_s, int x2_e, int P[]) {
+int is_circle_inside(int x_s, int x_e, int p, int p_r) {
+  return x_s <= p - p_r && p + p_r <= x_e;
+}
+
+int cover_box(int x1, int x2, int y1, int y2, int z1, int z2, int rd) {
   for(int i=0; i<N; i++) {
     if(
-      (x1_s <= P[i] - r[i] && P[i] + r[i] <= x1_e) ||
-      (x2_s <= P[i] - r[i] && P[i] + r[i] <= x2_e)
+      (
+        is_circle_inside(x1, x1 + rd, x[i], r[i]) &&
+        is_circle_inside(y1, y1 + rd, y[i], r[i]) &&
+        is_circle_inside(z1, z1 + rd, z[i], r[i])
+      ) ||
+      (
+        is_circle_inside(x2, x2 + rd, x[i], r[i]) &&
+        is_circle_inside(y2, y2 + rd, y[i], r[i]) &&
+        is_circle_inside(z2, z2 + rd, z[i], r[i])
+      )
     ) {
       continue;
     }
@@ -29,11 +41,11 @@ int cover_axis(int x1_s, int x1_e, int x2_s, int x2_e, int P[]) {
 }
 
 int cover(int radius) {
-  int pass = 0;
-  pass += cover_axis(minx, minx + radius, maxx - radius, maxx, x);
-  pass += cover_axis(miny, miny + radius, maxy - radius, maxy, y);
-  pass += cover_axis(minz, minz + radius, maxz - radius, maxz, z);
-  return pass == 3;
+  return
+    cover_box(minx, maxx - radius, miny, maxy - radius, minz, maxz - radius, radius) ||
+    cover_box(minx, maxx - radius, maxy - radius, miny, minz, maxz - radius, radius) ||
+    cover_box(maxx - radius, minx, miny, maxy - radius, minz, maxz - radius, radius) ||
+    cover_box(maxx - radius, minx, maxy - radius, miny, minz, maxz - radius, radius);
 }
 
 void solve() {
