@@ -34,3 +34,25 @@ After you complete it. Apply the summation rules to reduced formular.
 [https://brilliant.org/wiki/sum-of-n-n2-or-n3/](https://brilliant.org/wiki/sum-of-n-n2-or-n3/)
 
 And this algorithm can run with `O(1)`
+
+### B. Pattern Overlap
+
+I think this task is easy than A in term of mathematical knowledge. 
+
+If you can write with recursive approach then everything is solved. The hard part is you must think of edge case that can cause program bugs. Try to imagine multiple cases.
+
+```
+*1111*
+2222***3333
+
+n*
+n
+
+*n
+1234n
+```
+
+Use your imagination.
+
+After you write down your code and already tested on the edge cases.
+Add some memorization and your algorithm can be run on `O(N * N)` where N is maximum length of both string.
