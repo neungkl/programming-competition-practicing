@@ -39,7 +39,7 @@ And this algorithm can run with `O(1)`
 
 I think this task is easy than A in term of mathematical knowledge. 
 
-If you can write with recursive approach then everything is solved. The hard part is you must think of edge case that can cause program bugs. Try to imagine multiple cases.
+If you can write with recursive method and everything will be solved. The hard part is you must think of edge case that can cause program bugs. Try to imagine multiple cases.
 
 ```
 *1111*
