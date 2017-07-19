@@ -90,7 +90,7 @@ There is 2 possible cases of boxs arragement (for the case which each box alignm
 
 The thing that you must handle is try to put box in case 1 and check if those box can cover all sphere, and try with case 2 as the same.
 
-Ok, now move on to 3-dimension. Try to imagine by yourself I will only tell you that there are only 4 cases for 3-dimension, but the detail of each case, you could try to draw it by yourself.
+Ok, now move on to 3-dimension. Try to imagine by yourself I will only tell you that there are only 4 cases for 3-dimension, but the detail of each case, you can try draw it by yourself.
 
 After we try to fit the boxs into the combination of different location. The next big thing is how we calculate the size of each box which is the final answer of this problem.
 
