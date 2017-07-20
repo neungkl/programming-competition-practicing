@@ -67,7 +67,7 @@ The objectives of the task is just simple. Find the minimum square cube that can
 
 Pick paper and pencil and write everything you can imagine now. Let's with only one diemension. If I try to make the problem more easiler by given the dots with only x-axis, each dots has radius, and you try to push two boxs that can cover all dots and radius.
 
-It is very very easy.
+It is easier.
 
 The first box put on where the boundary is equal to leftmost dot minus by radius.
 And second box put on the rightmost dot plus by radius.
