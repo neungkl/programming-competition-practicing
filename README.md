@@ -4,9 +4,11 @@ This is my personal project to practicing [Google Code Jam](https://code.google.
 
 > Note: All codes are **not real time** update, the version you see here is different from competition version (more cleaner and more tester). Some codes here were written after competition finished.
 
-## Note
+## Writeup
 
-_I have not written anything yet._
+- [Kickstart 2017 Round A](./kickstart/2017-A/Readme.md)
+- Kickstart 2017 Round C
+- Kickstart 2017 Round D
 
 ## License
 
