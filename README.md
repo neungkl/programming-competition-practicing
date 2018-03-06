@@ -1,15 +1,23 @@
 # Google Code Jam Practice
 
-This is my personal project to practicing [Google Code Jam](https://code.google.com/codejam/)
+This is my personal project to pactice competitive programming.<br>
+The codes in this project are based on serveral competitions.
 
-> Note: All codes are **not real time** update, the version you see here is different from competition version (more cleaner and more tester). Some codes here were written after competition finished.
+- [Google Code Jam](https://code.google.com/codejam/)
 
-## Writeup
+> Note: All codes are **not written in real competition** , and it is not official solution just some code written by my own.
+
+## Complete and Incomplete Practicing
+
+#### Completed
 
 - [Kickstart 2017 Round A](./kickstart/2017-A/Readme.md)
-- Kickstart 2017 Round C (Incomplete)
-- Kickstart 2017 Round D (Incomplete)
-- Kickstart 2018 Practice Round (Incomplete)
+
+### Incompleted
+
+- Kickstart 2017 Round C
+- Kickstart 2017 Round D
+- Kickstart 2018 Practice Round
 
 ## License
 
