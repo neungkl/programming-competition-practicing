@@ -1,4 +1,6 @@
 .vscode
-scrum
 .DS_Store
 bin
+
+*.in
+*.out

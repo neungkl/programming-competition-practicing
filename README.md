@@ -7,8 +7,9 @@ This is my personal project to practicing [Google Code Jam](https://code.google.
 ## Writeup
 
 - [Kickstart 2017 Round A](./kickstart/2017-A/Readme.md)
-- Kickstart 2017 Round C
-- Kickstart 2017 Round D
+- Kickstart 2017 Round C (Incomplete)
+- Kickstart 2017 Round D (Incomplete)
+- Kickstart 2018 Practice Round (Incomplete)
 
 ## License
 
