@@ -1,4 +1,4 @@
-# Google Code Jam Practice
+# Programming Competition Practicing
 
 This is my personal project to pactice competitive programming.<br>
 The codes in this project are based on serveral competitions.
